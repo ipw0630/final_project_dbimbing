@@ -1,0 +1,21 @@
+services:
+  mysql:
+    image: dataeng-dibimbing/mysql
+    container_name: ${MYSQL_CONTAINER_NAME}
+    ports:
+      - ${MYSQL_PORT}:3306
+    environment:
+      - MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}
+      - MYSQL_DATABASE=${MYSQL_DATABASE}
+      - MYSQL_USER=${MYSQL_USER}
+      - MYSQL_PASSWORD=${MYSQL_PASSWORD}
+    volumes:
+      - ./db:/var/lib/mysql
+      - ./mysql-scripts/init.sql:/docker-entrypoint-initdb.d/init.sql
+    networks:
+      - dataeng-network
+
+networks:
+  dataeng-network:
+    driver: bridge
+    external: true
