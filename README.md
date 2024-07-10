@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+# Dibimbing, Data Engineering Bootcamp
+>>>>>>> 6fba91c29cf1e0048bb479493ed32a27ff1416f7
 # Rebuild Template Mentor - Mas Thosan 
 
 1. Run `make docker-build`
@@ -19,9 +23,12 @@
 ```
 
 ---
+<<<<<<< HEAD
 
 result 
 running postgres
 1. ![alt text](<WhatsApp Image 2024-07-10 at 14.07.59_6caab260.jpg>)
 on dbeaver
 2. ![alt text](<WhatsApp Image 2024-07-10 at 14.07.41_8cd9abc7.jpg>)
+=======
+>>>>>>> 6fba91c29cf1e0048bb479493ed32a27ff1416f7
