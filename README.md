@@ -1,8 +1,9 @@
-<<<<<<< HEAD
 # Dibimbing, Data Engineering Bootcamp
+# Rebuild Template Mentor - Mas Thosan 
 
-1. Clone This Repo.
-2. Run `make docker-build` for x86 user, or `make docker-build-arm` for arm chip user.
+1. Run `make docker-build`
+2. Run `make postgress`
+3. Run `make airflow` for trigger file on local folder
 
 ---
 ```
@@ -19,12 +20,3 @@
 ```
 
 ---
-
-# Rebuild Template Mentor - Mas Thosan 
-
-1. Run `make docker-build`
-2. Run `make postgress`
-3. Run `make airflow` for trigger file on local folder
-=======
-# final_project_dbimbing
->>>>>>> aceb554e9c55a4137b3e26925f5a0dfb702af5b0
