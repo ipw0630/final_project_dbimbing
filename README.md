@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Dibimbing, Data Engineering Bootcamp
 
 1. Clone This Repo.
@@ -24,3 +25,6 @@
 1. Run `make docker-build`
 2. Run `make postgress`
 3. Run `make airflow` for trigger file on local folder
+=======
+# final_project_dbimbing
+>>>>>>> aceb554e9c55a4137b3e26925f5a0dfb702af5b0
